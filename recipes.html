@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+    <link rel="stylesheet" href="recipes.css">
+</head>
+
+<body>
+  <div class="title">
+  <span class="normal">Taste</span><span class="elegant">theory</span>
+  </div>
+  <div class="nav_links">
+        <a href="homepage.html" class="nn">Home</a>
+        <a href="about.html" class="nn">About</a>
+        <a href="recipes.html" class="nn">Recipes</a>
+
+    </div>
+    <div class="categories">
+        <p class="category healthy" onclick="openPage('healthy.html')">Healthy</p>
+        <p class="category vegan" onclick="openPage('vegan.html')">Vegan</p>
+        <p class="category vegetarian" onclick="openPage('vegetarian.html')">Vegetarian</p>
+        <p class="category desserts" onclick="openPage('desserts.html')">Easy Desserts</p>
+        <p class="category night" onclick="openPage('night.html')"> Night Cravings</p>
+        <p class="category breakfast" onclick="openPage('breakfast.html')">Breakfast</p>
+        <p class="category brunch" onclick="openPage('brunch.html')">Brunch</p>
+        <p class="category lunch" onclick="openPage('lunch.html')">Lunch</p>
+        <p class="category dinner" onclick="openPage('dinner.html')">Dinner</p>
+    </div>
+
+    <script>
+    function openPage(page) {
+        window.location.href = page;
+    }
+</script>
+</body>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>French recipes</title>
+    <link rel="stylesheet" href="french.css">
+</head>
+
+<body>
+    <h1 class="title">Taste Theory</h1>
+    <div class="categories">
+        <p class="fr" onclick="openRecipe()">Boeuf Bourguignon</p>
+        <p class="fr" onclick="openRecipe()">Coq au Vin</p>
+        <p class="fr" onclick="openRecipe()">Ratatouille</p>
+        <p class="fr" onclick="openRecipe()">Quiche Lorraine</p>
+        <p class="fr" onclick="openRecipe()">Croque Monsieur</p>
+        <p class="fr" onclick="openRecipe()">Crème Brûlée</p>
+        <p class="fr" onclick="openRecipe()">Mousse au Chocolat</p>
+        <p class="fr" onclick="openRecipe()">Salade Niçoise</p>
+        <p class="fr" onclick="openRecipe()">Tarte Tatin</p>
+        <p class="fr" onclick="openRecipe()">Macarons</p>
+        <p class="fr" onclick="openRecipe()">Éclair au Chocolat</p>
+        <p class="fr" onclick="openRecipe()">Crêpes Suzette</p>
+    </div>
+    <div id="overlay">
+        <div id="recipe">
+            <span onclick="closeRecipe()">✖</span>
+
+            <h2>Boeuf Bourguignon</h2>
+
+            <p>Aici vine rețeta...</p>
+        </div>
+    </div>
+    <script>
+        function openRecipe() {
+            document.getElementById("overlay").style.display = "flex";
+        }
+        function closeRecipe() {
+            document.getElementById("overlay").style.display = "none";
+        }
+    </script>
+</body>

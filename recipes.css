@@ -1,0 +1,111 @@
+html {
+    overflow-y: scroll;
+}
+body{
+    margin:0;
+}
+.title{
+    background-color: rgb(235, 190, 93);
+    margin:0;
+    padding:40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-shadow: 3px 3px 5px gray;
+    color:rgb(78, 29, 29);
+}
+.elegant{
+     font-family: Copperplate, Papyrus, fantasy;
+}
+.categories {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.category{
+    background-color: rgb(255, 170, 67);
+    border: 35px;
+    border-radius: 190px;
+    padding: 70px;
+    font-size: 26px;
+    font-weight: bold;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    -webkit-text-stroke: 1.5px black;
+    text-shadow: 5px 5px 6px rgba(8, 0, 0, 0.9);
+}
+.category.healthy{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiuI1k7Bhw5SkBVBondvDcXVJ8qFF9IBg1kP529JajOwrqFwQ21usWDeBE&s=10");
+    background-position: center;
+    background-size: 100%;
+    
+}
+.category.vegan{
+    background-image: url("https://images.immediate.co.uk/production/volatile/sites/2/2023/12/Marinated-tempeh-1cdf4d5.jpg?quality=90&resize=708,643");
+    background-position: center;
+    background-size: 100%;
+}
+.category.breakfast{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Mbrk1PW0ZIBSe2p1O-GtSvpDFokPik_MXUWBKFhSWN7AIeubeznB28YM&s=10");
+    background-position: center;
+    background-size: 100%;
+}
+.category.vegetarian{
+    background-image:url("https://images.squarespace-cdn.com/content/v1/5ade3cbfb10598dd7a26c513/1583865440528-ZAOTRAR1JIJLYPZ8XB1N/Springtime+Produce+List+%26+Pesto+Pasta+by+Jessie+May") ;
+    background-position: center;
+    background-size: 100%;
+}
+.category.lunch{
+    background-image: url("https://i.redd.it/actually-tried-making-an-aesthetic-lunch-v0-oornm8n7nowc1.jpg?width=3024&format=pjpg&auto=webp&s=ff0d16e9ee41444e1b4fccb86884de7982e8cab8");
+    background-position: center;
+    background-size: 100%;
+}
+.category.dinner{
+    background-image: url("https://i.pinimg.com/736x/6e/f7/42/6ef7429588d8c99428835bb6b73690af.jpg");
+    background-position: center;
+    background-size: 100%;
+}
+.category.brunch{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDGGuL_Dg_qY7F1CICn3KPVZbvimMYg7MVlU97brS6VOO8-LKdKuag8neR&s=10");
+    background-position: center;
+    background-size: 100%;
+}
+.category.desserts{
+    background-image: url("https://cdn.whittake.rs/public/Uploads/Tuckshop-Whittakers-Raspberry-Mille-Feuille-Cake-1x1.jpg");
+    background-position: center;
+    background-size: 100%;
+}
+.category.night{
+    background-image: url("https://i.pinimg.com/236x/1f/04/63/1f046321f01179decd03257c160acc58.jpg?nii=t");
+    background-position: center;
+    background-size: 100%;
+}
+.category:hover {
+    background-color: rgb(235, 190, 93);
+    color: white;
+    box-shadow: 0 8px 20px rgba(71, 42, 6, 0.6);
+}
+.nav_links{
+    background-color:  rgb(235, 190, 93);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(235, 190, 93);
+}
+.nn{
+    padding:10px;
+    padding-left: 27px;
+    padding-right: 27px;
+    background-color:rgb(255, 207, 104);
+    margin: 20px;
+    border:2px solid black;
+    text-decoration: none;
+    color:black
+}
+

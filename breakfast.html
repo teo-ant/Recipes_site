@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breakfast recipes</title>
+    <link rel="stylesheet" href="all.css">
+</head>
+
+<body>
+    <div>
+        <div class="title">
+            <span class="normal">Taste</span><span class="elegant">theory</span>
+        </div>
+        <h2 class="subtitle">Breakfast</h2>
+    </div>
+
+    <div class="categories">
+    <div class="recipes">
+        <button class="rec" onclick="openModal('modal1')">Fluffy Banana Pancakes</button>
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal1')">&times;</span>
+                <div class="rec-text">
+                    <h2>Fluffy Banana Pancakes</h2>
+                    <h3>Ingredients: </h3><p>1 ripe banana; 1 egg; 100 g flour; 100 ml milk; 1 tsp baking powder; 1 tsp vanilla extract; 1 tbsp sugar; a pinch of salt.</p>
+                    <h3>How to make it:</h3>
+                    <p>1. Mash the banana in a bowl.</p>
+                    <p>2. Add the egg, milk, vanilla, and sugar and mix well.</p>
+                    <p>3. Stir in the flour, baking powder, and salt until just combined.</p>
+                    <p>4. Heat a lightly buttered pan over medium heat.</p>
+                    <p>5. Pour small portions of batter into the pan and cook for 2–3 minutes on each side.</p>
+                    <p>6. Serve warm with fruit, honey, or maple syrup.</p>
+                </div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOoEkhiRXEQ6pPo7zJC1fnczkytjww9iIg_uZkT7IrgSM3nuNYFZuSfss&s=10" class="recipe-image">
+            </div>
+        </div>
+
+    <div class="recipes">
+        <button class="rec" onclick="openModal('modal2')">Avocado & Egg Toast</button>
+        <div id="modal2" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal2')">&times;</span>
+                <div class="rec-text">
+                    <h2>Avocado & Egg Toast</h2>
+                    <h3>Ingredients: </h3><p>2 slices of bread; 1 ripe avocado; 2 eggs; 1 tsp lemon juice; ½ tsp chili flakes; salt and pepper; 1 tsp olive oil.</p>
+                    <h3>How to make it:</h3>
+                    <p>1. Toast the bread until golden and crispy.</p>
+                    <p>2. Mash the avocado with lemon juice, salt, and pepper.</p>
+                    <p>3. Heat olive oil in a pan and cook the eggs to your preference.</p>
+                    <p>4. Spread the mashed avocado over the toast.</p>
+                    <p>5. Place one egg on each slice.</p>
+                    <p>6. Sprinkle with chili flakes and serve immediately.</p>
+                </div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROOwwyeiHzNvH_QnD9qpmVYc1KN6y7Fg9ISC_c0ZGv7ut6XpeI0Sl74mpP&s=10" class="recipe-image">
+            </div>
+        </div>
+
+    <div class="recipes">
+        <button class="rec" onclick="openModal('modal3')">Berry Overnight Oats</button>
+        <div id="modal3" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal3')">&times;</span>
+                <div class="rec-text">
+                    <h2>Berry Overnight Oats</h2>
+                    <h3>Ingredients: </h3><p>80 g rolled oats; 150 ml milk; 100 g Greek yogurt; 1 tbsp honey; ½ tsp vanilla extract; 80 g mixed berries; 1 tbsp chia seeds.</p>
+                    <h3>How to make it:</h3>
+                    <p>1. Add oats, milk, Greek yogurt, honey, vanilla, and chia seeds to a jar.</p>
+                    <p>2. Stir everything together until well combined.</p>
+                    <p>3. Add half of the berries and mix gently.</p>
+                    <p>4. Cover the jar and refrigerate overnight.</p>
+                    <p>5. In the morning, stir the oats and add a little more milk if needed.</p>
+                    <p>6. Top with the remaining berries and serve cold.</p>
+                </div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbZTy3ag9OwA4b-zhmYTqdaFcaRPsAQwHORqvB60yUN-o5fPuEHNf2K_2_&s=10" class="recipe-image">
+            </div>
+        </div>
+
+    <div class="recipes">
+        <button class="rec" onclick="openModal('modal4')">Cheesy Breakfast Quesadilla</button>
+        <div id="modal4" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal4')">&times;</span>
+                <div class="rec-text">
+                    <h2>Cheesy Breakfast Quesadilla</h2>
+                    <h3>Ingredients: </h3><p>2 flour tortillas; 2 eggs; 80 g grated cheddar; ½ bell pepper, diced; 2 tbsp sweet corn; 1 tbsp butter; salt and pepper.</p>
+                    <h3>How to make it:</h3>
+                    <p>1. Whisk the eggs with salt and pepper.</p>
+                    <p>2. Melt the butter in a pan and scramble the eggs.</p>
+                    <p>3. Place one tortilla in a clean pan over medium heat.</p>
+                    <p>4. Add half of the cheese, scrambled eggs, bell pepper, corn, and the remaining cheese.</p>
+                    <p>5. Cover with the second tortilla and cook for 2–3 minutes on each side.</p>
+                    <p>6. Cut into triangles and serve warm.</p>
+                </div>
+                <img src="https://natashaskitchen.com/wp-content/uploads/2020/05/Breakfast-Quesadillas-5-728x1092.jpg" class="recipe-image">
+            </div>
+        </div>
+
+    <div class="recipes">
+        <button class="rec" onclick="openModal('modal5')">French Toast with Berries</button>
+        <div id="modal5" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal5')">&times;</span>
+                <div class="rec-text">
+                    <h2>French Toast with Berries</h2>
+                    <h3>Ingredients: </h3><p>4 slices of bread; 2 eggs; 100 ml milk; 1 tsp vanilla extract; ½ tsp cinnamon; 1 tbsp butter; 100 g mixed berries; 1 tbsp maple syrup.</p>
+                    <h3>How to make it:</h3>
+                    <p>1. Whisk the eggs, milk, vanilla, and cinnamon in a shallow bowl.</p>
+                    <p>2. Dip each slice of bread into the mixture for a few seconds on both sides.</p>
+                    <p>3. Melt the butter in a pan over medium heat.</p>
+                    <p>4. Cook the bread for 2–3 minutes on each side until golden.</p>
+                    <p>5. Place the French toast on a plate.</p>
+                    <p>6. Top with berries and drizzle with maple syrup.</p>
+                </div>
+                <img src="https://cld.accentuate.io/561160323240/1701718557690/GP_PadovaPro_14Pc_BlueHaze_Recipe3_06.jpg?v=1701718557690&options=w_870,h_700" class="recipe-image">
+            </div>
+        </div>
+
+    <div class="recipes">
+        <button class="rec" onclick="openModal('modal6')">Creamy Berry Smoothie Bowl</button>
+        <div id="modal6" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal6')">&times;</span>
+                <div class="rec-text">
+                    <h2>Creamy Berry Smoothie Bowl</h2>
+                    <h3>Ingredients: </h3><p>1 frozen banana; 150 g frozen mixed berries; 100 g Greek yogurt; 50 ml milk; 1 tsp honey; 2 tbsp granola; fresh fruit for topping.</p>
+                    <h3>How to make it:</h3>
+                    <p>1. Add the frozen banana, berries, Greek yogurt, milk, and honey to a blender.</p>
+                    <p>2. Blend until thick and creamy.</p>
+                    <p>3. Add a little more milk if the mixture is too thick to blend.</p>
+                    <p>4. Pour the smoothie into a bowl.</p>
+                    <p>5. Top with granola and fresh fruit.</p>
+                    <p>6. Serve immediately.</p>
+                </div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDd2qqqIego-s-7XTsGrk1FnDg8DbeB4kBoBWVX6sQhKf6ZR6Oaedcvu8&s=10" class="recipe-image">
+            </div>
+        </div>
+
+    <div class="recipes">
+        <button class="rec" onclick="openModal('modal7')">Ham & Cheese Breakfast Muffins</button>
+        <div id="modal7" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal7')">&times;</span>
+                <div class="rec-text">
+                    <h2>Ham & Cheese Breakfast Muffins</h2>
+                    <h3>Ingredients: </h3><p>3 eggs; 100 g flour; 1 tsp baking powder; 100 ml milk; 80 g grated cheese; 80 g diced ham; ½ bell pepper, diced; salt and pepper.</p>
+                    <h3>How to make it:</h3>
+                    <p>1. Preheat the oven to 180°C (350°F) and grease a muffin tin.</p>
+                    <p>2. Whisk the eggs and milk together.</p>
+                    <p>3. Add flour, baking powder, salt, and pepper and mix until combined.</p>
+                    <p>4. Fold in the cheese, ham, and bell pepper.</p>
+                    <p>5. Divide the mixture evenly between the muffin cups.</p>
+                    <p>6. Bake for 18–20 minutes until golden and cooked through.</p>
+                </div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsbaQqj6BAGlCwuap1JD2k2rMHwpQdxFtS3A3Whsd6xGrlMnM3g-mGuWk&s=10" class="recipe-image">
+            </div>
+        </div>
+
+    <div class="recipes">
+        <button class="rec" onclick="openModal('modal8')">Apple Cinnamon Breakfast Oatmeal</button>
+        <div id="modal8" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('modal8')">&times;</span>
+                <div class="rec-text">
+                    <h2>Apple Cinnamon Breakfast Oatmeal</h2>
+                    <h3>Ingredients: </h3><p>80 g rolled oats; 250 ml milk; 1 apple, diced; 1 tsp cinnamon; 1 tbsp honey; 1 tbsp chopped walnuts; a pinch of salt.</p>
+                    <h3>How to make it:</h3>
+                    <p>1. Add oats, milk, and salt to a saucepan.</p>
+                    <p>2. Cook over medium heat for 4–5 minutes, stirring occasionally.</p>
+                    <p>3. Add the diced apple and cinnamon.</p>
+                    <p>4. Cook for another 2–3 minutes until the apple softens.</p>
+                    <p>5. Transfer the oatmeal to a bowl and drizzle with honey.</p>
+                    <p>6. Top with chopped walnuts and serve warm.</p>
+                </div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwPwM0ob25XpFg_nOobMNG1hPF7gTz8SiZYdNDOaLbw-zuHcuVHMSnusc&s=10" class="recipe-image">
+            </div>
+        </div>
+
+        <script>
+        function openModal(id) {
+            document.getElementById(id).style.display = "flex";
+        }
+
+        function closeModal(id) {
+            document.getElementById(id).style.display = "none";
+        }
+        </script>
+
+</body>
+</html>
