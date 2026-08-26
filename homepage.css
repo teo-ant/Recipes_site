@@ -76,3 +76,42 @@ body{
     transform: scale(1.01);
     background-color: rgb(235, 190, 93);
 }
+.ingredient{
+    color:rgb(78, 29, 29);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-shadow: 3px 3px 5px gray;
+    padding-left: 90px;
+    
+}
+#ingredient{
+    height:200px;
+}
+.find{
+     background-color: rgb(78, 29, 29);
+    color: white;
+    border: none;
+    padding: 7px 14px;
+    margin-left: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Times New Roman', Times, serif;
+}
+.find:hover{
+    background-color: rgb(78, 29, 29);
+    transform: translateY(-0.7px);
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.3);
+    font-family: 'Times New Roman', Times, serif;
+}
+.find:active{
+    transform: scale(1.01);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ingredient{
+    color:rgb(78, 29, 29);
+    padding:7px ;
+}
